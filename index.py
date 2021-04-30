@@ -10,7 +10,6 @@ def playMP3():
     playsound("badapple.mp3")
 
 def playVideo():
-    fps = 0
     excesTime = 0
     cap = VideoCapture('./badapple.mp4')
     res, frame = cap.read()
